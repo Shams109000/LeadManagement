@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const { loginAdmin,createAdmin } = require("../controllers/authController");
+const { loginAdmin,createAdmin } = require("../controllers/temp");
 
 router.post("/login", loginAdmin);
 // TEMPORARY - DELETE AFTER CREATING ADMIN
