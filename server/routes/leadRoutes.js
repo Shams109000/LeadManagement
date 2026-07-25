@@ -7,7 +7,7 @@ const {
   createLead,
   getLeads,
   updateLeadStatus,
-} = require("../controllers/temp");
+} = require("../controllers/leadController");
 
 const protect = require("../middleware/authMiddleware");
 
